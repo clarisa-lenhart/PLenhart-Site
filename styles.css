@@ -64,28 +64,52 @@ h4{
 
 }
 
+section {
+    
+    background: #fff; 
+    margin: 0 0 30px 0; 
+    padding: 20px; 
+    -webkit-border-radius: 16px; 
+    -webkit-box-shadow: 0 0 4px rgba(0,0,0,.3);
 
+   
+}
+
+img {
+  max-width: 100%;
+    
+}
 #fig1 {
   float: right;
   margin-bottom: 1em;
-  margin-left: 2.5%;  /* 12px / 474px */
-  width: 48%;  /* 231px / 474px */
+  margin-left: 2.5%;  
+    margin-right: 2.5em;
+    margin-top: 2.5em;
+  width: 48%; 
  text-align:center;
 font-size: 0.7em;
  color:lightslategray;
  display:inline-block;
+
 }
+
+/*
 #fig2 {
+    
   float: left;
   margin-bottom:  2.5%;
-  margin-left: .7em;  /* 12px / 474px */
+  margin-left: .7em; 
     margin-right: 2.5em;
-  width: 48%;  /* 231px / 474px */
+  width: 48%;  
  text-align:center;
 font-size: 0.7em;
  color:lightslategray;
  display:inline-block;
+  
+
 }
+*/
+
 
 
 #cvHead {
@@ -93,9 +117,7 @@ font-size: 0.7em;
     color: #2f4a21
 }
 
-img {
-  max-width: 100%;
-}
+
 
 
 p {
