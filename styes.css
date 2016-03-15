@@ -1,0 +1,188 @@
+*{margin: 0; padding: 0;} 
+
+nav{width: 100%; 
+height: 50px;
+background: #000;
+text-align: right;
+position: relative;
+top: -50px;
+-webkit-animation: navbar 1s ease-out .5s;
+-webkit-animation-fill-mode: forwards;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 50px;
+    padding: 0 1em ;
+    opacity:0;
+}
+
+
+body{
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffe8+0,d6dbbf+100;Wax+3D+%231 */
+background: #feffe8; /* Old browsers */
+background: -moz-linear-gradient(top,  #feffe8 0%, #d6dbbf 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #feffe8 0%,#d6dbbf 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #feffe8 0%,#d6dbbf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffe8', endColorstr='#d6dbbf',GradientType=0 ); /* IE6-9 */
+
+
+}
+
+html, body {
+	min-height: 100%;
+}
+
+header {
+    padding: 0;
+    margin: 0;
+	background: no-repeat right top, black;
+	min-width: 400px;
+}
+
+    
+
+main{padding: 2em;}
+
+h1 {
+    
+	color: #456B30;
+	text-shadow: 1px 1px 1px #030303;
+	margin-bottom: 0.5em;
+    font-size:30px;
+}
+h3{
+    color: #2f4a21 ;
+    font-size:20px;
+}
+h4{
+    color: #6b9555;
+    font-size: 15px;
+
+}
+
+
+#fig1 {
+  float: right;
+  margin-bottom: 1em;
+  margin-left: 2.5%;  /* 12px / 474px */
+  width: 48%;  /* 231px / 474px */
+ text-align:center;
+font-size: 0.7em;
+ color:lightslategray;
+ display:inline-block;
+}
+#fig2 {
+  float: left;
+  margin-bottom:  2.5%;
+  margin-left: .7em;  /* 12px / 474px */
+    margin-right: 2.5em;
+  width: 48%;  /* 231px / 474px */
+ text-align:center;
+font-size: 0.7em;
+ color:lightslategray;
+ display:inline-block;
+}
+
+
+#cvHead {
+    text-align: center;
+    color: #2f4a21
+}
+
+img {
+  max-width: 100%;
+}
+
+
+p {
+	line-height: 1.7em;
+    padding-bottom: 1em; 
+
+}
+
+ul {
+    margin-left: 2em;
+    list-style:none;
+    margin-bottom: 0.6em;
+    line-height: 1em;
+    
+    
+}
+li{
+    line-height: 1em;
+    margin-bottom: 0.4em;
+}
+
+/*nested lists*/
+
+ul li ul li {
+    font-size: 12px;
+    margin-bottom: 0.5em;
+    line-height: 1em;
+}
+
+td{
+    padding: .2em ;
+}
+
+
+/* unvisited link */
+main a:link {
+    color: #30577e;
+}
+
+/* visited link */
+main a:visited {
+    color:#c98c2a;
+}
+
+
+footer {
+	color: #583804;
+	font-size: 0.7em;
+	border-top: 1px solid #456B30;
+	margin-top: 5em;
+    margin-left: .7em;
+	padding-top: 7px;
+    clear:both;
+}
+
+/* ==============================
+            ANIMATIONS
+=================================*/
+
+       /* ANIMATIONS*/
+        @-webkit-keyframes navbar{
+            0%{top: -50px;}
+            100%{top: 0px;}
+        }
+        
+        @keyframes fadein{
+            0%{opacity: 0;}
+            100%{opacity: 1;}
+           
+        }
+        
+        #l1{
+            -webkit-animation: fadein 1s ease-out 1.5s;
+        -webkit-animation-fill-mode: forwards;
+        }
+        #l2{
+            -webkit-animation: fadein 1s ease-out 2s;
+        -webkit-animation-fill-mode: forwards;
+        }
+        #l3{
+            -webkit-animation: fadein 1s ease-out 2.5s;
+        -webkit-animation-fill-mode: forwards;
+        }
+        #l4{
+            -webkit-animation: fadein 1s ease-out 3s;
+        -webkit-animation-fill-mode: forwards;
+        }
+        
+
+    
